@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Playfair+Display:wght@400;600;700&display=swap');
+
+
+
+h1, h2, h3 {
+    font-family: 'Playfair Display', serif;
+}
+
+
+
+:root{
+--vintage-grape: #463A4Fff;
+--deep-space-blue: #173144ff;
+--amethyst-smoke: #A480A8ff;
+--rosy-taupe: #f3dbde;
+--ink-black: #08181Dff;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin: 0;
+    font-size: 18px;
+}
+#hero{
+    height: 470px;
+    background-image: url(images/yerevan.webp);
+    background-size:cover ;
+    background-repeat:no-repeat ;
+    background-position: center 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+#hero-title, #hero-description{
+    padding:  8px 15px;
+    color: white;
+    border-radius: 8px;
+
+}
+#hero-title{
+
+    background-color: var(--vintage-grape);
+}
+#hero-description{
+    background-color: var(--amethyst-smoke);
+    width: 500px;
+    margin-top: 0;
+    box-shadow: 0px 0px 1px black;
+}
+.round{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+}
+#cascade{
+    background-image: url(images/cascade.webp);
+}
+#rep-square{
+    background-image: url(images/republic-square.webp);
+}
+#culture{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNTZAVHjGpZDoYRNkDMPXzQRQ7rHNwZdogquzMSjpQLQ&s=10);
+}
+#activities{
+    height: 480px;
+    padding: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    background: linear-gradient(var(--rosy-taupe),var(--amethyst-smoke));
+    color: var(--ink-black);
+
+}
+.activity-info{
+    flex: 3;
+    border-radius: 8px;
+    padding: 7px;
+    margin: 15px;
+    background-color: var(--rosy-taupe);
+    box-shadow:  0px 0px 10px var(--amethyst-smoke);
+
+}
+
+.activity-info:active,.activity-info:hover {
+    flex: 4;
+    color: var(--rosy-taupe);
+    text-shadow:  0px 0px 2px black;
+    box-shadow:  0px 0px 10px var(--deep-space-blue);  
+    background-color: var(--amethyst-smoke);
+    color: var(--rosy-taupe);
+
+}
+
+#activities div{
+    text-align: center;
+    justify-items: center;
+    width: 200px;
+    text-align:center;
+    padding: 20px;
+    text-wrap: balance;
+}
+#info{
+    border-radius: 8px;
+    width: 60%;
+    margin: 30px auto;
+    display: flex;
+    padding: 30px;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: var(--vintage-grape);
+    color: var(--rosy-taupe);
+}
+#info img{
+    height: 300px;
+    border-radius: 8px;
+}
+#info div{
+    width: 30%;
+}
+#info div p{
+    font-size: 20px;
+}
