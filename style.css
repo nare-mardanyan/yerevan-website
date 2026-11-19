@@ -20,6 +20,7 @@ body{
     text-align: center;
     margin: 0;
     font-size: 18px;
+    background-color: white;
 }
 #hero{
     height: 470px;
